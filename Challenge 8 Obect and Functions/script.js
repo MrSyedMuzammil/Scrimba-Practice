@@ -23,14 +23,27 @@
 // logData();
 
 // Solution 2 to the Challenge
+// const person = {
+//   name: "Syed Muzammil",
+//   age: 22,
+//   country: "Pakistan",
+//   logData: function logData() {
+//     console.log(
+//       `${this.name} is ${this.age} years old and lives in ${this.country}`
+//     );
+//   },
+// };
+// person.logData();
+
+// Solution 3 to the Challenge
 const person = {
   name: "Syed Muzammil",
   age: 22,
   country: "Pakistan",
   logData: function logData() {
-    console.log(
-      `${this.name} is ${this.age} years old and lives in ${this.country}`
-    );
+    return `${this.name} is ${this.age} years old and lives in ${this.country}`;
   },
 };
-person.logData();
+
+const data = person.logData();
+console.log(data);
