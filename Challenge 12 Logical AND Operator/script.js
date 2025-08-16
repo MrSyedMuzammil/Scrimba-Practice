@@ -5,3 +5,11 @@ let weekday = "Friday";
 
 // If it is Friday the 13th, log out this spooky face: 😱
 // Use the logical "AND operator" -> &&
+
+// Practice 2 Challenge 5
+
+// Solution :
+
+if (dayOfMonth === 13 && weekday === "Friday") {
+  console.log("😱");
+}
