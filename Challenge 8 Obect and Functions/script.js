@@ -6,3 +6,18 @@
 // "Per is 35 years old and lives in Norway"
 
 // Call the logData() function to verify that it works
+
+// Solution 1 to the Challenge
+const person = {
+  name: "Syed Muzammil",
+  age: 22,
+  country: "Pakistan",
+};
+
+function logData() {
+  console.log(
+    `${person.name} is ${person.age} years old and lives in ${person.country}`
+  );
+}
+
+logData();
