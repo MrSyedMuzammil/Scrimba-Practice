@@ -18,6 +18,10 @@ The 5 largest countries in the world:
 
 let largeCountries = ["China", "India", "USA", "Indonesia", "Pakistan"];
 
-for (let i = 0; i <= largeCountries.length - 1; i++) {
+// for (let i = 0; i <= largeCountries.length - 1; i++) {
+//   console.log(largeCountries[i]);
+// }
+
+for (let i = 0; i < largeCountries.length; i++) {
   console.log(largeCountries[i]);
 }
