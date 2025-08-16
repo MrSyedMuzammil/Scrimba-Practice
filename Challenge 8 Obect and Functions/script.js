@@ -8,16 +8,29 @@
 // Call the logData() function to verify that it works
 
 // Solution 1 to the Challenge
+// const person = {
+//   name: "Syed Muzammil",
+//   age: 22,
+//   country: "Pakistan",
+// };
+
+// function logData() {
+//   console.log(
+//     `${person.name} is ${person.age} years old and lives in ${person.country}`
+//   );
+// }
+
+// logData();
+
+// Solution 2 to the Challenge
 const person = {
   name: "Syed Muzammil",
   age: 22,
   country: "Pakistan",
+  logData: function logData() {
+    console.log(
+      `${this.name} is ${this.age} years old and lives in ${this.country}`
+    );
+  },
 };
-
-function logData() {
-  console.log(
-    `${person.name} is ${person.age} years old and lives in ${person.country}`
-  );
-}
-
-logData();
+person.logData();
