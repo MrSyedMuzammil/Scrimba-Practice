@@ -5,7 +5,14 @@ let scrimbaUsers = {
 };
 
 // Challenge: Create a let variable called 'scrimbaUsersEmails' and use one of Object methods to set it equal to an array with the values
+let scrimbaUsersEmails = Object.values(scrimbaUsers);
 
 // Challenge: Create a let variable called 'scrimbaUsersIDs' and use one of Object methods to set it equal to an array with the keys
+let scrimbaUserIDs = Object.keys(scrimbaUsers);
 
 // Challenge: Create a let variable called 'scrimbaUsersEntries' and use one of Object methods to set it equal to an array with the both the keys and values
+let scrimbaUserEntries = Object.entries(scrimbaUsers);
+
+console.log(scrimbaUsersEmails);
+console.log(scrimbaUserIDs);
+console.log(scrimbaUserEntries);
