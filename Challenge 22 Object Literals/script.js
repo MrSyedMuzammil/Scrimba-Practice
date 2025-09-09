@@ -11,16 +11,17 @@
 // Refactor Code to use Object Destructuring and Template Literals
 
 function addressMaker(address) {
+  const { city, state } = address;
+
   const newAddress = {
-    city: address.city,
-    state: address.state,
+    city,
+    state,
     country: "Pakistan",
   };
-  const { city, state, country } = newAddress;
 
   console.log(`This is the city: ${city}`);
   console.log(`This is the state: ${state}`);
-  console.log(`This is the country: ${country}`);
+  console.log("This is the country: Pakistan");
 }
 
 addressMaker({ city: "Peshawar", state: "KPK" });
