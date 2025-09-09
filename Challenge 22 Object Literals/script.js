@@ -10,9 +10,7 @@
 
 // Refactor Code to use Object Destructuring and Template Literals
 
-function addressMaker(address) {
-  const { city, state } = address;
-
+function addressMaker({ city, state }) {
   const newAddress = {
     city,
     state,
