@@ -10,3 +10,8 @@ console.log(`This is the third number : ${third}`);
 // Swapping variables values
 let a = 5;
 let b = 10;
+
+[a, b] = [b, a];
+
+console.log(`The value of a is : ${a}`);
+console.log(`The value of b is : ${b}`);
