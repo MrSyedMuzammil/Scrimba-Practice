@@ -6,3 +6,7 @@ const [first, second, third] = numbers;
 console.log(`This is the first number : ${first}`);
 console.log(`This is the second number : ${second}`);
 console.log(`This is the third number : ${third}`);
+
+// Swapping variables values
+let a = 5;
+let b = 10;
