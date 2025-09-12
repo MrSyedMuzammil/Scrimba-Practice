@@ -11,3 +11,7 @@
 */
 
 const shoppingList = ["eggs", "milk", "butter"];
+
+const shoppingBasket = [...shoppingList, "bread", "apples", "chocolate"];
+
+console.log(shoppingBasket);
