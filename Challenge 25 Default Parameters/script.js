@@ -11,3 +11,8 @@ But if you dont pass a value to your parameter food, it should print
 "I'm going to buy something from the grocery shop"
 
 */
+
+const buyFood = (food = "milk") =>
+  `I'm going to buy ${food} from the grocery shop`;
+
+console.log(buyFood());
