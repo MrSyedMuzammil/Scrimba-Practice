@@ -1,4 +1,2 @@
-const buyFood = (food = "milk") =>
+export const buyFood = (food = "milk") =>
   `I'm going to buy ${food} from the grocery shop`;
-
-console.log(buyFood());
